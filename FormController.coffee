@@ -11,7 +11,7 @@ Usage:
 ###
 class FormController extends Spine.Controller
   events:
-    '.submit': 'submit'
+    'submit': 'submit'
 
   elements:
     ':input': 'inputs'
